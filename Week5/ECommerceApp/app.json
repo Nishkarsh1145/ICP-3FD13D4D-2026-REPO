@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ShopEasy",
+    "slug": "ecommerce-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1A1A2E"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.icp.shopeasy"
+    },
+    "android": {
+      "package": "com.icp.shopeasy",
+      "adaptiveIcon": {
+        "backgroundColor": "#1A1A2E"
+      }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
