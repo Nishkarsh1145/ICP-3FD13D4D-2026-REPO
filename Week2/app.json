@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Weather Now",
+    "slug": "weather-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#2B6CB0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.icp.weathernow",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Weather Now uses your location to show local weather conditions."
+      }
+    },
+    "android": {
+      "package": "com.icp.weathernow",
+      "adaptiveIcon": {
+        "backgroundColor": "#2B6CB0"
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Weather Now uses your location to show local weather conditions."
+        }
+      ]
+    ]
+  }
+}
