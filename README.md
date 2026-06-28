@@ -1,7 +1,6 @@
 # ICP App Development Internship — Final Submission
 
 **Intern:** Nishkarsh Jandial
-**Portal ID:** ICP-3FD13D4D-2026
 **GitHub:** https://github.com/Nishkarsh1145/ICP-3FD13D4D-2026-REPO
 
 ## Two Apps Built
